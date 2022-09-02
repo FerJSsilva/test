@@ -1,0 +1,21 @@
+{
+  "editor.renderWhitespace": "boundary",
+  "editor.tabSize": 2,
+  "files.eol": "\n",
+  "editor.codeActionsOnSave": {
+    "source.fixAll": true,
+    "source.organizeImports": true
+  },
+  "files.exclude": {
+    "node_modules/": true,
+    "nodemon.json": true,
+    "prettier.config.js": true,
+    "tsconfig.json": true,
+    ".eslintignore": true,
+    ".eslintrc.json": true,
+    ".editorconfig": true,
+    ".gitignore": true,
+    "LICENSE": true,
+    ".vscode": false
+  }
+}

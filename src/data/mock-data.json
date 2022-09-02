@@ -1,0 +1,47 @@
+{
+  "books": [
+    {
+      "id": "1",
+      "name": "Livro 1",
+      "owner_id": "1"
+    },
+    {
+      "id": "2",
+      "name": "Livro 2",
+      "owner_id": "3"
+    },
+    {
+      "id": "3",
+      "name": "Livro 3",
+      "owner_id": "2"
+    }
+  ],
+  "users": [
+    {
+      "id": "1",
+      "name": "User 1",
+      "email": "user1@mail.com"
+    },
+    {
+      "id": "2",
+      "name": "User 2",
+      "email": "user2@mail.com"
+    },
+    {
+      "id": "3",
+      "name": "User 3",
+      "email": "user3@mail.com"
+    }
+  ],
+  "loans": [
+    {
+      "id": "1",
+      "book_id": "2",
+      "lender_id": "2",
+      "loan_date": "08/05/2021",
+      "devolution_deadline": "13/05/2021",
+      "devolution_date": "15/05/2021",
+      "is_returned": true
+    }
+  ]
+}
